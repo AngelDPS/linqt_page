@@ -1,0 +1,5 @@
+<map id="csr_matrix.hpp" name="csr_matrix.hpp">
+<area shape="rect" id="node2" href="$containers_8hpp.html" title="This class defines containers on the host(RAM) and device(GPU) memory for different purposes..." alt="" coords="267,80,373,107"/>
+<area shape="rect" id="node8" href="$memory_8hpp.html" title="File defining the memory tags HostMemory nad DeviceMemory. " alt="" coords="509,155,603,181"/>
+<area shape="rect" id="node9" href="$CudaApiError_8hpp.html" title="CudaApiError.hpp" alt="" coords="628,155,753,181"/>
+</map>
