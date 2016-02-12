@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['index',['index',['../classcustom_1_1sparse__matrix.html#a776bdedc7812ffc4eb629e6e4dbb6ad6',1,'custom::sparse_matrix']]],
-  ['indexes',['indexes',['../classcustom_1_1sparse__matrix.html#af6b0a9f131d41efefd977ddb989f751c',1,'custom::sparse_matrix']]],
-  ['initialmoment',['InitialMoment',['../classKpmMoments.html#a3add09a3747416a0931293294ec3c39f',1,'KpmMoments']]],
-  ['isfirstsimulation',['IsFirstSimulation',['../classKpmMoments.html#afad81bfb8ac7b4ca68b1a141439ec59f',1,'KpmMoments']]]
+  ['jm0',['Jm0',['../classKpmMethods.html#a10abe446d431174f5a11f455588fc1de',1,'KpmMethods']]],
+  ['jm1',['Jm1',['../classKpmMethods.html#aedec90dda5971a0f577fbd1f71abbbf7',1,'KpmMethods']]],
+  ['jn0',['Jn0',['../classKpmMethods.html#a2d2bba17fc9d8d871df8e2093b7d8791',1,'KpmMethods']]],
+  ['jn1',['Jn1',['../classKpmMethods.html#a89eddec95ad9e58e532d70231f839121',1,'KpmMethods']]]
 ];

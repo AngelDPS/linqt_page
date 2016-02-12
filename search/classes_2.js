@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['host_5ftag',['host_tag',['../structhost__tag.html',1,'']]]
+  ['hostmemory_5ftag',['HostMemory_tag',['../structkpmfusion_1_1HostMemory__tag.html',1,'kpmfusion']]]
 ];

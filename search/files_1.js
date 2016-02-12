@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dense_5flinalg_5fclass_2ehpp',['dense_linalg_class.hpp',['../dense__linalg__class_8hpp.html',1,'']]]
+  ['hd5cpp_5ftemplate_2ehpp',['HD5Cpp_template.hpp',['../HD5Cpp__template_8hpp.html',1,'']]]
 ];

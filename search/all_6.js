@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['handle',['handle',['../structdense__linalg_3_01CUBLAS_01_4.html#a8be34694b73a896ec21d525cdf68109c',1,'dense_linalg&lt; CUBLAS &gt;::handle()'],['../structsparse__linalg_3_01CUSPARSE_01_4.html#a22b35451a8c467077ad7cb84e27059fd',1,'sparse_linalg&lt; CUSPARSE &gt;::handle()']]],
-  ['hd5cpp_5ftemplate_2ehpp',['HD5Cpp_template.hpp',['../HD5Cpp__template_8hpp.html',1,'']]],
-  ['host_5ftag',['host_tag',['../structhost__tag.html',1,'']]],
-  ['hostmemory',['HostMemory',['../memory_8hpp.html#aa7dad525f251c35ba3c9cb110e090b3d',1,'memory.hpp']]]
+  ['init',['init',['../structMKL.html#a73718bfcdb4d83f37513fc28bb4bb828',1,'MKL::init()'],['../structCUDA.html#a95d856c9197e5a7b2e01f45610a548c9',1,'CUDA::init()'],['../structLinearAlgebra_1_1CUSPARSE__CUBLAS.html#a5117e48800150e8d7ab36292888ee15c',1,'LinearAlgebra::CUSPARSE_CUBLAS::init()'],['../structLinearAlgebra_1_1MKL.html#a1507b76e3cb33ec45cd0679906a853fc',1,'LinearAlgebra::MKL::init()']]],
+  ['initialmoment',['InitialMoment',['../classKpmMoments.html#adac248356424ee96e73ec0c9c95f2d17',1,'KpmMoments']]]
 ];

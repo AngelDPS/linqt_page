@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['applyjacsonmoment',['ApplyJacsonMoment',['../classKpmMoments.html#a1afa7ef7dc9e13ebaad8559cde98f974',1,'KpmMoments']]],
-  ['axpy',['axpy',['../structdense__linalg_3_01CUBLAS_01_4.html#a090b51d8e7be89fff09e8b30b189b7c5',1,'dense_linalg&lt; CUBLAS &gt;::axpy(const int Dim, const float *alpha, const float *x, float *y)'],['../structdense__linalg_3_01CUBLAS_01_4.html#a585bd84f7f6ed12f34ea24393d6307b4',1,'dense_linalg&lt; CUBLAS &gt;::axpy(const int Dim, const double *alpha, const double *x, double *y)']]]
+  ['calculatedosmoments',['CalculateDosMoments',['../classKpmMethods.html#a791e5cb647350d3eaa22fd8fa62552df',1,'KpmMethods']]],
+  ['columnnumber',['ColumnNumber',['../classSparse_1_1csr__matrix.html#a3612b5e7a1d48f3474fb8135b07ffa6c',1,'Sparse::csr_matrix']]],
+  ['csr_5fmatrix',['csr_matrix',['../classSparse_1_1csr__matrix.html#aa0ffe0745cdf002f1bb5504e88e65179',1,'Sparse::csr_matrix::csr_matrix()'],['../classSparse_1_1csr__matrix.html#a2073bc4c51f4dd25e9bde7035613b839',1,'Sparse::csr_matrix::csr_matrix(Tindex nnz, Tindex dim)']]]
 ];

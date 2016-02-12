@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['index',['index',['../classcustom_1_1sparse__matrix.html#a776bdedc7812ffc4eb629e6e4dbb6ad6',1,'custom::sparse_matrix']]],
-  ['indexes',['indexes',['../classcustom_1_1sparse__matrix.html#af6b0a9f131d41efefd977ddb989f751c',1,'custom::sparse_matrix']]],
-  ['initialmoment',['InitialMoment',['../classKpmMoments.html#a3add09a3747416a0931293294ec3c39f',1,'KpmMoments']]],
-  ['isfirstsimulation',['IsFirstSimulation',['../classKpmMoments.html#afad81bfb8ac7b4ca68b1a141439ec59f',1,'KpmMoments']]]
+  ['kpmmethods',['KpmMethods',['../classKpmMethods.html#ab31f78758526a82186d63ef5f3029d93',1,'KpmMethods']]],
+  ['kpmmoments',['KpmMoments',['../classKpmMoments.html#a123a3631f79c1face753f3deb30701fa',1,'KpmMoments::KpmMoments()'],['../classKpmMoments.html#a02171228c7535d410fbf3ac190d0f447',1,'KpmMoments::KpmMoments(const size_type M)'],['../classKpmMoments.html#a2b804d385cfe3752f23572d001ba6553',1,'KpmMoments::KpmMoments(const size_type M, const size_type dim)'],['../classKpmMoments.html#a9801b4d1a922d621e9b0b700a9d65da3',1,'KpmMoments::KpmMoments(const kpmfusion::vector&lt; OtherMemory, Tvalue &gt; &amp;moments)'],['../classKpmMoments.html#a5ec5fab01f2080c2f8edd4c4bf8a32ca',1,'KpmMoments::KpmMoments(const kpmfusion::vector&lt; OtherMemory, Tvalue &gt; &amp;moments, const size_type dim)']]]
 ];

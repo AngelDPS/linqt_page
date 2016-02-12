@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sparse',['Sparse',['../namespaceSparse.html',1,'']]]
+  ['linearalgebra',['LinearAlgebra',['../namespaceLinearAlgebra.html',1,'']]]
 ];

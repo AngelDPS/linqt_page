@@ -102,19 +102,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKpmMoments.html">KpmMoments&lt; Tvalue, MemoryType &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the KpmMoment class.  <a href="classKpmMoments.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class used to store the chebyshev moments of the kernel polynomial method.  <a href="classKpmMoments.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This file defines a container for the ChebyshevMoments array used in the Kernel Polynomial Method. </p>
 <dl class="section author"><dt>Author</dt><dd>Jose Garcia (<a href="#" onclick="location.href='mai'+'lto:'+'ada'+'me'+'ciu'+'s@'+'gma'+'il'+'.co'+'m'; return false;">adame<span style="display: none;">.nosp@m.</span>cius<span style="display: none;">.nosp@m.</span>@gmai<span style="display: none;">.nosp@m.</span>l.co<span style="display: none;">.nosp@m.</span>m</a>), João Viana (<a href="#" onclick="location.href='mai'+'lto:'+'jvi'+'an'+'alo'+'pe'+'s@g'+'ma'+'il.'+'co'+'m'; return false;">jvian<span style="display: none;">.nosp@m.</span>alop<span style="display: none;">.nosp@m.</span>es@gm<span style="display: none;">.nosp@m.</span>ail.<span style="display: none;">.nosp@m.</span>com</a>) </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>5 fev 2016 This file defines a container for the ChebyshevMoments array used in the Kernel Polynomial Method It is defined in terms of the <a class="el" href="classcustom_1_1vector.html" title="This is an abstract class to be specialized by host and device vector classes. ">custom::vector</a> container, and it allows to read the vectors from a restart files and continue a stopped simulation. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>This methods should accept a complex value typw</dd></dl>
-<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000003">Bug:</a></b></dt><dd>I am about to find out </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>9 fev 2016 This file defines a container for the ChebyshevMoments array used in the Kernel Polynomial Method It is defined in terms of the <a class="el" href="classkpmfusion_1_1vector.html" title="Abstract template of the vector class for an abstract memory type an abstract type. ">kpmfusion::vector</a> container, and it allows to read the vectors from a restart files and continue a stopped simulation. The moments are always defined as a linear array, but there are implemented method to mask the moments as a two-dimensional matrix. For example for Two-point green function calculations </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Test the robustness of the method using thrust::complex variables.</dd></dl>
+<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000005">Bug:</a></b></dt><dd>SOLVE THE PROBLEM WIH CASTING A VECTOR LIKE THIS VECTOR[i] </dd></dl>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 5 2016 15:54:39 for KpmFusion by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 12 2016 19:48:06 for KpmFusion by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['row_5findex',['row_index',['../classSparse_1_1csr__matrix.html#a934f12c2dab99f3c1e8237dc77ba5c44',1,'Sparse::csr_matrix']]],
-  ['rownumber',['RowNumber',['../classSparse_1_1csr__matrix.html#a599e0925f646d486d926fe5eb2ade874',1,'Sparse::csr_matrix']]]
+  ['totalmoments',['TotalMoments',['../classKpmMoments.html#a97eaddab89e7cc946a72b530a1560e33',1,'KpmMoments']]],
+  ['type',['type',['../structMyHD5Type.html#a3f708f4606ecb398f975e3f5ad8856cc',1,'MyHD5Type::type()'],['../structMyHD5Type_3_01int_01_4.html#a4331b07060a5e607d3274e5c155e0744',1,'MyHD5Type&lt; int &gt;::type()'],['../structMyHD5Type_3_01float_01_4.html#a5596fd0f1159bbbb2739778a2d6bbe92',1,'MyHD5Type&lt; float &gt;::type()'],['../structMyHD5Type_3_01double_01_4.html#a4d82c99cc955dc4414f117a3761aba32',1,'MyHD5Type&lt; double &gt;::type()'],['../structMyHD5Type_3_01long_01double_01_4.html#ad720c6895fb6ab84408eb346f5266380',1,'MyHD5Type&lt; long double &gt;::type()']]]
 ];

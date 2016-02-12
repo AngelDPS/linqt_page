@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['gotonextrow',['GotoNextRow',['../classSparse_1_1csr__matrix.html#a3ac180b0d4d7ab40a72ad6fc46d9c708',1,'Sparse::csr_matrix']]],
-  ['gpuassert',['gpuAssert',['../CudaApiError_8hpp.html#ab3e90881a2476fd461eb2bcfcaa7cf63',1,'CudaApiError.hpp']]]
+  ['hamiltonian',['Hamiltonian',['../classKpmMethods.html#a627e2107d27baa6ad673ebc72ef58263',1,'KpmMethods']]],
+  ['hd5cpp_5ftemplate_2ehpp',['HD5Cpp_template.hpp',['../HD5Cpp__template_8hpp.html',1,'']]],
+  ['hostmemory',['HostMemory',['../namespacekpmfusion.html#ac531e1b95ab286a88a1f144bf458586a',1,'kpmfusion']]],
+  ['hostmemory_5ftag',['HostMemory_tag',['../structkpmfusion_1_1HostMemory__tag.html',1,'kpmfusion']]]
 ];
