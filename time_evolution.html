@@ -93,15 +93,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p class="formulaDsp">
 <img class="formulaDsp" alt="\[ |\Psi(t)\rangle = U(t)|\Psi\rangle \]" src="form_24.png"/>
 </p>
-<p>where <img class="formulaInl" alt="$U(t)\equiv{\rm e}^{i H t}$" src="form_25.png"/> an unitary operator known as time-evolution operator. Typically, the calculation of the exponential of an operator is not a trivial task. In LinQT we circumvent this problem by expanding it in terms of Chebyshev polynomials. Following the approach in <a href="https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.78.275">1</a>, we first express the evolution operator in terms of the normalized hamiltonian <img class="formulaInl" alt="$\tilde{H}$" src="form_26.png"/> </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ U(t)={\rm e}^{i \omega_c t} {\rm e}^{i \omega \tilde{H}}\ \]" src="form_27.png"/>
+<p>where <img class="formulaInl" alt="$U(t)\equiv{\rm e}^{-i H t}$" src="form_35.png"/> an unitary operator known as time-evolution operator. Typically, the calculation of the exponential of an operator is not a trivial task. In LinQT we circumvent this problem by expanding it in terms of Chebyshev polynomials. Following the approach in <a href="https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.78.275">1</a>, we first express the evolution operator in terms of the normalized hamiltonian <img class="formulaInl" alt="$\tilde{H}$" src="form_26.png"/> </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ U(t)={\rm e}^{-i \omega_c t} {\rm e}^{-i \omega \tilde{H}}\ \]" src="form_36.png"/>
 </p>
 <p> where <img class="formulaInl" alt="$\omega_c\equiv E_c/\hbar$" src="form_28.png"/> with <img class="formulaInl" alt="$E_c$" src="form_29.png"/> the band center, and <img class="formulaInl" alt="$\omega\equiv\frac{W}{2\hbar}$" src="form_30.png"/> with <img class="formulaInl" alt="$W$" src="form_31.png"/> the bandwidth.</p>
 <p class="formulaDsp">
 <img class="formulaDsp" alt="\[ U(t) = \sum_{m=0}^{\infty} U_m(t) T_m(\tilde{H}) \]" src="form_33.png"/>
 </p>
 <p> where </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ U_m(t) = i^m(2-\delta_{m0}J_m(-i\omega t){\rm e}^{i \omega_c t} \]" src="form_34.png"/>
+<img class="formulaDsp" alt="\[ U_m(t) = i^m(2-\delta_{m0})J_m(-i\omega t){\rm e}^{-i \omega_c t} \]" src="form_37.png"/>
 </p>
  </div></div><!-- contents -->
 <!-- start footer part -->
