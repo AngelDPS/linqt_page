@@ -28,3 +28,5 @@
 \form#27:\[ \mu_{m,n} = \frac{1}{Z}\langle \chi_{\rm L}(n)| s\chi_{\rm R}(n,m)\langle, \]
 \form#28:$ |\chi_{\rm L}(n) \rangle = U(t_n)P|\chi\rangle $
 \form#29:$ |\chi_{\rm R}(m,n) \rangle = U(t_n)PT_m(H)|\chi\rangle $
+\form#30:\[ \mu_{m,n} = \frac{1}{Z}\langle \chi_{\rm L}(n)| s|\chi_{\rm R}(n,m)\rangle, \]
+\form#31:\[ S(t_n)= \sum_{m}\mu_{m,n} T_m(\varepsilon_{\rm F} \]
