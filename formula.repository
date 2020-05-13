@@ -1,3 +1,12 @@
 \form#0:$(x_1,y_1)$
 \form#1:$(x_2,y_2)$
 \form#2:$\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$
+\form#3:$\tau_{\rm s}$
+\form#4:\[ i\hbar \frac{d}{dt}|\Psi\rangle = H |\Psi\rangle \]
+\form#5:$H$
+\form#6:$\hbar$
+\form#7:$|\Psi\rangle$
+\form#8:\[ i\hbar \frac{d}{dt}|\Psi(t)\rangle = H |\Psi\rangle \]
+\form#9:$||\Psi(t)\rangle$
+\form#10:$S\equiv \langle\Psi(t)|s|\Psi(t)\rangle$
+\form#11:$s$

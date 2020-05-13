@@ -86,7 +86,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">The spin relaxation times </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>The distance between <img class="formulaInl" alt="$(x_1,y_1)$" src="form_0.png"/> and <img class="formulaInl" alt="$(x_2,y_2)$" src="form_1.png"/> is <img class="formulaInl" alt="$\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$" src="form_2.png"/>. </p>
+<div class="textblock"><p>Systems described by a spin-dependent Hamiltonians, endows spins with dynamics. Typically, crystalline systems will posses spin-dependent fields which will make the spins to precess coherently. This is the case of external magnetic fields and spin-orbit coupling fields. However, in the presence of randomness, the spin-coherence is lost due to the irreversibility, making it relax over some relevant time scale <img class="formulaInl" alt="$\tau_{\rm s}$" src="form_3.png"/> know as spin relaxation time.</p>
+<p>To obtain the spin relaxation time it is sufficient to solve the Schrodinger equation: </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ i\hbar \frac{d}{dt}|\Psi(t)\rangle = H |\Psi\rangle \]" src="form_8.png"/>
+</p>
+<p> where <img class="formulaInl" alt="$H$" src="form_5.png"/> the hamiltonian of the system, <img class="formulaInl" alt="$\hbar$" src="form_6.png"/> the Planck's constant, and <img class="formulaInl" alt="$||\Psi(t)\rangle$" src="form_9.png"/> the state of the system, and then compute the macroscopic spin density <img class="formulaInl" alt="$S\equiv \langle\Psi(t)|s|\Psi(t)\rangle$" src="form_10.png"/> with <img class="formulaInl" alt="$s$" src="form_11.png"/> the spin operator.</p>
+<p>We follow the approach done by [Cummings et. al]]<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.206601">1</a>, in which the </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
