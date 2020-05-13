@@ -10,3 +10,9 @@
 \form#9:$||\Psi(t)\rangle$
 \form#10:$S\equiv \langle\Psi(t)|s|\Psi(t)\rangle$
 \form#11:$s$
+\form#12:\[ S( t) = {\rm Tr}\left[ \rho\frac{s(t)}{\Omega} \right], \]
+\form#13:$s(t)=U^\dagger(t) s U(t)$
+\form#14:$U(t)$
+\form#15:$U(t) = {\rm e}^{-i H t/\hbar}$
+\form#16:$\varepsilon_{\rm F}$
+\form#17:\[ \rho(\varepsilon_{\rm F}) = \frac{ \delta(H-\varepsilon_{\rm F}) P }{ {\rm Tr}[\delta(H-\varepsilon_{\rm F})] } \]

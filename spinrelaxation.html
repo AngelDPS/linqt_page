@@ -90,8 +90,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>To obtain the spin relaxation time it is sufficient to solve the Schrodinger equation: </p><p class="formulaDsp">
 <img class="formulaDsp" alt="\[ i\hbar \frac{d}{dt}|\Psi(t)\rangle = H |\Psi\rangle \]" src="form_8.png"/>
 </p>
-<p> where <img class="formulaInl" alt="$H$" src="form_5.png"/> the hamiltonian of the system, <img class="formulaInl" alt="$\hbar$" src="form_6.png"/> the Planck's constant, and <img class="formulaInl" alt="$||\Psi(t)\rangle$" src="form_9.png"/> the state of the system, and then compute the macroscopic spin density <img class="formulaInl" alt="$S\equiv \langle\Psi(t)|s|\Psi(t)\rangle$" src="form_10.png"/> with <img class="formulaInl" alt="$s$" src="form_11.png"/> the spin operator.</p>
-<p>We follow the approach done by [Cummings et. al]]<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.206601">1</a>, in which the </p>
+<p> where <img class="formulaInl" alt="$H$" src="form_5.png"/> the hamiltonian of the system, <img class="formulaInl" alt="$\hbar$" src="form_6.png"/> the Planck's constant, and <img class="formulaInl" alt="$||\Psi(t)\rangle$" src="form_9.png"/> the state of the system. Then, spin density is computed in the Heisenberg picture as </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ S( t) = {\rm Tr}\left[ \rho\frac{s(t)}{\Omega} \right], \]" src="form_12.png"/>
+</p>
+<p> where $$ the density matrix, <img class="formulaInl" alt="$s(t)=U^\dagger(t) s U(t)$" src="form_13.png"/> the time evolved spin operator, with <img class="formulaInl" alt="$s$" src="form_11.png"/> its static representation in the Schrodinger picture and <img class="formulaInl" alt="$U(t)$" src="form_14.png"/> the time-evolution operator.</p>
+<p>In LinQT we deal with tight-binding models of solids described by a time-independent Hamiltonian. Therefore, the evolution operator can be written simply as <img class="formulaInl" alt="$U(t) = {\rm e}^{-i H t/\hbar}$" src="form_15.png"/>, and the density matrix depends on the Fermi energy <img class="formulaInl" alt="$\varepsilon_{\rm F}$" src="form_16.png"/>. To compute the evolution of the spin density, we follow the approach done by [Cummings et. al][1], in which the density matrix takes the following form</p>
+<p class="formulaDsp">
+<img class="formulaDsp" alt="\[ \rho(\varepsilon_{\rm F}) = \frac{ \delta(H-\varepsilon_{\rm F}) P }{ {\rm Tr}[\delta(H-\varepsilon_{\rm F})] } \]" src="form_17.png"/>
+</p>
+<p> with $ P </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
