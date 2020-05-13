@@ -36,3 +36,4 @@
 \form#35:$U(t)\equiv{\rm e}^{-i H t}$
 \form#36:\[ U(t)={\rm e}^{-i \omega_c t} {\rm e}^{-i \omega \tilde{H}}\ \]
 \form#37:\[ U_m(t) = i^m(2-\delta_{m0})J_m(-i\omega t){\rm e}^{-i \omega_c t} \]
+\form#38:\[ U_m(t) = (-i)^m(2-\delta_{m0})J_m(\omega t){\rm e}^{-i \omega_c t} \]
