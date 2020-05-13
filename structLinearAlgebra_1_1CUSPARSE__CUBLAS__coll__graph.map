@@ -1,6 +1,0 @@
-<map id="LinearAlgebra::CUSPARSE_CUBLAS" name="LinearAlgebra::CUSPARSE_CUBLAS">
-<area shape="rect" id="node2" href="$classkpmfusion_1_1vector.html" title="kpmfusion::vector\&lt;\l kpmfusion::DeviceMemory\l_tag, kpm::complex\&lt; float \&gt; \&gt;" alt="" coords="11,5,210,61"/>
-<area shape="rect" id="node3" href="$classkpmfusion_1_1vector.html" title="kpmfusion::vector\&lt;\l kpmfusion::DeviceMemory\l_tag, kpm::complex\&lt; double \&gt; \&gt;" alt="" coords="5,85,216,141"/>
-<area shape="rect" id="node4" href="$classkpmfusion_1_1vector.html" title="kpmfusion::vector\&lt;\l kpmfusion::DeviceMemory\l_tag, double \&gt;" alt="" coords="19,165,202,221"/>
-<area shape="rect" id="node5" href="$classkpmfusion_1_1vector.html" title="kpmfusion::vector\&lt;\l kpmfusion::DeviceMemory\l_tag, float \&gt;" alt="" coords="19,245,202,301"/>
-</map>
