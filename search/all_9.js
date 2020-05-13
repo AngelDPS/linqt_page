@@ -7,6 +7,5 @@ var searchData=
   ['setwannierbasissize',['SetWannierBasisSize',['../classhopping__list.html#a1b279de0f9c4bc23483245007bb43dd0',1,'hopping_list']]],
   ['sparsematrixbuilder',['SparseMatrixBuilder',['../class_sparse_matrix_builder.html',1,'']]],
   ['sparsematrixtype',['SparseMatrixType',['../class_sparse_matrix_type.html',1,'']]],
-  ['sparsematrixtype_5fbase',['SparseMatrixType_BASE',['../class_sparse_matrix_type___b_a_s_e.html',1,'']]],
-  ['some_20title',['Some title',['../spinrelaxation.html',1,'index']]]
+  ['sparsematrixtype_5fbase',['SparseMatrixType_BASE',['../class_sparse_matrix_type___b_a_s_e.html',1,'']]]
 ];
