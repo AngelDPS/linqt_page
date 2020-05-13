@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['my_20personal_20index_20page',['My Personal Index Page',['../index.html',1,'']]],
-  ['main',['main',['../md_main.html',1,'']]]
+  ['linqt_3a_20a_20tool_20for_20linear_20quantum_20transport',['LinQT: A tool for linear quantum transport',['../index.html',1,'']]]
 ];
