@@ -31,3 +31,5 @@
 \form#30:$\omega\equiv\frac{W}{2\hbar}$
 \form#31:$W$
 \form#32:\[ U(t) = \sum_{m=0}^{\infty} U_m(t) \]
+\form#33:\[ U(t) = \sum_{m=0}^{\infty} U_m(t) T_m(\tilde{H}) \]
+\form#34:\[ U_m(t) = i^m(2-\delta_{m0}J_m(-i\omega t){\rm e}^{i \omega_c t} \]
