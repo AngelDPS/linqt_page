@@ -86,7 +86,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">The spin relaxation times </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Systems described by a spin-dependent Hamiltonians, endows spins with dynamics. Typically, crystalline systems will posses spin-dependent fields which will make the spins to precess coherently. This is the case of external magnetic fields and spin-orbit coupling fields. However, in the presence of randomness, the spin-coherence is lost due to the irreversibility, making it relax over some relevant time scale <img class="formulaInl" alt="$\tau_{\rm s}$" src="form_3.png"/> know as spin relaxation time.</p>
+<div class="textblock"><p><b>Introduction</b> Systems described by a spin-dependent Hamiltonians, endows spins with dynamics. Typically, crystalline systems will posses spin-dependent fields which will make the spins to precess coherently. This is the case of external magnetic fields and spin-orbit coupling fields. However, in the presence of randomness, the spin-coherence is lost due to the irreversibility, making it relax over some relevant time scale <img class="formulaInl" alt="$\tau_{\rm s}$" src="form_3.png"/> know as spin relaxation time.</p>
 <p>To obtain the spin relaxation time it is sufficient to solve the Schrodinger equation: </p><p class="formulaDsp">
 <img class="formulaDsp" alt="\[ i\hbar \frac{d}{dt}|\Psi(t)\rangle = H |\Psi\rangle \]" src="form_8.png"/>
 </p>
@@ -98,9 +98,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p class="formulaDsp">
 <img class="formulaDsp" alt="\[ \rho(\varepsilon_{\rm F}) = \frac{ P \delta(H-\varepsilon_{\rm F}) P }{ {\rm Tr}[\delta(H-\varepsilon_{\rm F})] } \]" src="form_19.png"/>
 </p>
-<p>with $ P <img class="formulaInl" alt="$ a projector operator. In [1], the projector operator is choosen such that spin density acts on spin polarizes in a given spatial dimension. If such spatial direction is described by an altitude angle $" src="form_20.png"/>$ and a azimutal angle $$, then the spinorial component of the projector operator takes the form of: </p><p class="formulaDsp">
+<p>with <img class="formulaInl" alt="$ P $" src="form_22.png"/> a projector operator. In [1], the projector operator is choosen such that spin density acts on spin polarizes in a given spatial dimension. If such spatial direction is described by an altitude angle <img class="formulaInl" alt="$\theta$" src="form_23.png"/> and a azimutal angle <img class="formulaInl" alt="$\phi$" src="form_24.png"/>, then the spinorial component of the projector operator takes the form of: </p><p class="formulaDsp">
 <img class="formulaDsp" alt="\[ P_{\pm}(\theta,\phi) =\frac{1}{2} \left(\begin{array}{cc} 1\pm \cos(\theta) &amp; {\rm e}^{-i\phi}\sin\theta \\ {\rm e}^{i\phi}\sin\theta &amp;1\mp \cos(\theta) \end{array} \right) \]" src="form_21.png"/>
 </p>
+<p> but an arbitrary operator can be choose.</p>
+<p><b>The Chebyshev approach</b></p>
+<p>We rewrite the expression by using the permutation property of the trace, </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ S( t) = \frac{ {\rm Tr}\left[ PU^\dagger(t) sU(t) P\delta(H-\varepsilon_{\rm F})\right]}{Z}, \]" src="form_25.png"/>
+</p>
+<p> where we had defined <img class="formulaInl" alt="$Z={\rm Tr}\left[ P\delta(H-\varepsilon_{\rm F})\right]$" src="form_26.png"/>. The trace is then approximate by a mean over a random phase vector </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ \mu_{m,n} = \frac{1}{Z}\langle \chi_{\rm L}(n)| s\chi_{\rm R}(n,m)\langle, \]" src="form_27.png"/>
+</p>
+<p> where <img class="formulaInl" alt="$ |\chi_{\rm L}(n) \rangle = U(t_n)P|\chi\rangle $" src="form_28.png"/> and <img class="formulaInl" alt="$ |\chi_{\rm R}(m,n) \rangle = U(t_n)PT_m(H)|\chi\rangle $" src="form_29.png"/></p>
 <p>[1]: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.206601">https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.206601</a> </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
