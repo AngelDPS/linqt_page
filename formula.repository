@@ -16,3 +16,7 @@
 \form#15:$U(t) = {\rm e}^{-i H t/\hbar}$
 \form#16:$\varepsilon_{\rm F}$
 \form#17:\[ \rho(\varepsilon_{\rm F}) = \frac{ \delta(H-\varepsilon_{\rm F}) P }{ {\rm Tr}[\delta(H-\varepsilon_{\rm F})] } \]
+\form#18:$|\Psi(t)\rangle$
+\form#19:\[ \rho(\varepsilon_{\rm F}) = \frac{ P \delta(H-\varepsilon_{\rm F}) P }{ {\rm Tr}[\delta(H-\varepsilon_{\rm F})] } \]
+\form#20:$ a projector operator. In [1], the projector operator is choosen such that spin density acts on spin polarizes in a given spatial dimension. If such spatial direction is described by an altitude angle $
+\form#21:\[ P_{\pm}(\theta,\phi) =\frac{1}{2} \left(\begin{array}{cc} 1\pm \cos(\theta) & {\rm e}^{-i\phi}\sin\theta \\ {\rm e}^{i\phi}\sin\theta &1\mp \cos(\theta) \end{array} \right) \]
