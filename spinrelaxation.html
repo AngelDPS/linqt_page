@@ -86,32 +86,32 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">The spin relaxation times </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><b>Introduction</b> Systems described by a spin-dependent Hamiltonians, endows spins with dynamics. Typically, crystalline systems will posses spin-dependent fields which will make the spins to precess coherently. This is the case of external magnetic fields and spin-orbit coupling fields. However, in the presence of randomness, the spin-coherence is lost due to the irreversibility, making it relax over some relevant time scale <img class="formulaInl" alt="$\tau_{\rm s}$" src="form_3.png"/> know as spin relaxation time.</p>
+<div class="textblock"><p><b>Introduction</b> Systems described by a spin-dependent Hamiltonians, endows spins with dynamics. Typically, crystalline systems will posses spin-dependent fields which will make the spins to precess coherently. This is the case of external magnetic fields and spin-orbit coupling fields. However, in the presence of randomness, the spin-coherence is lost due to the irreversibility, making it relax over some relevant time scale <img class="formulaInl" alt="$\tau_{\rm s}$" src="form_0.png"/> know as spin relaxation time.</p>
 <p>To obtain the spin relaxation time it is sufficient to solve the Schrodinger equation: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ i\hbar \frac{d}{dt}|\Psi(t)\rangle = H |\Psi\rangle \]" src="form_8.png"/>
+<img class="formulaDsp" alt="\[ i\hbar \frac{d}{dt}|\Psi(t)\rangle = H |\Psi\rangle \]" src="form_1.png"/>
 </p>
-<p> where <img class="formulaInl" alt="$H$" src="form_5.png"/> the hamiltonian of the system, <img class="formulaInl" alt="$\hbar$" src="form_6.png"/> the Planck's constant, and <img class="formulaInl" alt="$|\Psi(t)\rangle$" src="form_18.png"/> the state of the system. Then, spin density is computed in the Heisenberg picture as </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ S( t) = {\rm Tr}\left[ \rho\frac{s(t)}{\Omega} \right], \]" src="form_12.png"/>
+<p> where <img class="formulaInl" alt="$H$" src="form_2.png"/> the hamiltonian of the system, <img class="formulaInl" alt="$\hbar$" src="form_3.png"/> the Planck's constant, and <img class="formulaInl" alt="$|\Psi(t)\rangle$" src="form_4.png"/> the state of the system. Then, spin density is computed in the Heisenberg picture as </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ S( t) = {\rm Tr}\left[ \rho\frac{s(t)}{\Omega} \right], \]" src="form_5.png"/>
 </p>
-<p> where $$ the density matrix, <img class="formulaInl" alt="$s(t)=U^\dagger(t) s U(t)$" src="form_13.png"/> the time evolved spin operator, with <img class="formulaInl" alt="$s$" src="form_11.png"/> its static representation in the Schrodinger picture and <img class="formulaInl" alt="$U(t)$" src="form_14.png"/> the time-evolution operator.</p>
-<p>In LinQT we deal with tight-binding models of solids described by a time-independent Hamiltonian. Therefore, the evolution operator can be written simply as <img class="formulaInl" alt="$U(t) = {\rm e}^{-i H t/\hbar}$" src="form_15.png"/>, and the density matrix depends on the Fermi energy <img class="formulaInl" alt="$\varepsilon_{\rm F}$" src="form_16.png"/>. To compute the evolution of the spin density, we follow the approach done by [Cummings et. al][1], in which the density matrix takes the following form</p>
+<p> where $$ the density matrix, <img class="formulaInl" alt="$s(t)=U^\dagger(t) s U(t)$" src="form_6.png"/> the time evolved spin operator, with <img class="formulaInl" alt="$s$" src="form_7.png"/> its static representation in the Schrodinger picture and <img class="formulaInl" alt="$U(t)$" src="form_8.png"/> the time-evolution operator.</p>
+<p>In LinQT we deal with tight-binding models of solids described by a time-independent Hamiltonian. Therefore, the evolution operator can be written simply as <img class="formulaInl" alt="$U(t) = {\rm e}^{-i H t/\hbar}$" src="form_9.png"/>, and the density matrix depends on the Fermi energy <img class="formulaInl" alt="$\varepsilon_{\rm F}$" src="form_10.png"/>. To compute the evolution of the spin density, we follow the approach done by [Cummings et. al][1], in which the density matrix takes the following form</p>
 <p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \rho(\varepsilon_{\rm F}) = \frac{ P \delta(H-\varepsilon_{\rm F}) P }{ {\rm Tr}[\delta(H-\varepsilon_{\rm F})] } \]" src="form_19.png"/>
+<img class="formulaDsp" alt="\[ \rho(\varepsilon_{\rm F}) = \frac{ P \delta(H-\varepsilon_{\rm F}) P }{ {\rm Tr}[\delta(H-\varepsilon_{\rm F})] } \]" src="form_11.png"/>
 </p>
-<p>with <img class="formulaInl" alt="$ P $" src="form_22.png"/> a projector operator. In [1], the projector operator is choosen such that spin density acts on spin polarizes in a given spatial dimension. If such spatial direction is described by an altitude angle <img class="formulaInl" alt="$\theta$" src="form_23.png"/> and a azimutal angle <img class="formulaInl" alt="$\phi$" src="form_24.png"/>, then the spinorial component of the projector operator takes the form of: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ P_{\pm}(\theta,\phi) =\frac{1}{2} \left(\begin{array}{cc} 1\pm \cos(\theta) &amp; {\rm e}^{-i\phi}\sin\theta \\ {\rm e}^{i\phi}\sin\theta &amp;1\mp \cos(\theta) \end{array} \right) \]" src="form_21.png"/>
+<p>with <img class="formulaInl" alt="$ P $" src="form_12.png"/> a projector operator. In [1], the projector operator is choosen such that spin density acts on spin polarizes in a given spatial dimension. If such spatial direction is described by an altitude angle <img class="formulaInl" alt="$\theta$" src="form_13.png"/> and a azimutal angle <img class="formulaInl" alt="$\phi$" src="form_14.png"/>, then the spinorial component of the projector operator takes the form of: </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ P_{\pm}(\theta,\phi) =\frac{1}{2} \left(\begin{array}{cc} 1\pm \cos(\theta) &amp; {\rm e}^{-i\phi}\sin\theta \\ {\rm e}^{i\phi}\sin\theta &amp;1\mp \cos(\theta) \end{array} \right) \]" src="form_15.png"/>
 </p>
 <p> but an arbitrary operator can be choose.</p>
 <p><b>The Chebyshev approach</b></p>
 <p>We rewrite the expression by using the permutation property of the trace, </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ S( t) = \frac{ {\rm Tr}\left[ PU^\dagger(t) sU(t) P\delta(H-\varepsilon_{\rm F})\right]}{Z}, \]" src="form_25.png"/>
+<img class="formulaDsp" alt="\[ S( t) = \frac{ {\rm Tr}\left[ PU^\dagger(t) sU(t) P\delta(H-\varepsilon_{\rm F})\right]}{Z}, \]" src="form_16.png"/>
 </p>
-<p> where we had defined <img class="formulaInl" alt="$Z={\rm Tr}\left[ P\delta(H-\varepsilon_{\rm F})\right]$" src="form_26.png"/>. The trace is then approximate by a mean over a random phase vector </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \mu_{m,n} = \frac{1}{Z}\langle \chi_{\rm L}(n)| s|\chi_{\rm R}(n,m)\rangle, \]" src="form_30.png"/>
+<p> where we had defined <img class="formulaInl" alt="$Z={\rm Tr}\left[ P\delta(H-\varepsilon_{\rm F})\right]$" src="form_17.png"/>. The trace is then approximate by a mean over a random phase vector </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ \mu_{m,n} = \frac{1}{Z}\langle \chi_{\rm L}(n)| s|\chi_{\rm R}(n,m)\rangle, \]" src="form_18.png"/>
 </p>
-<p> where <img class="formulaInl" alt="$ |\chi_{\rm L}(n) \rangle = U(t_n)P|\chi\rangle $" src="form_28.png"/> and <img class="formulaInl" alt="$ |\chi_{\rm R}(m,n) \rangle = U(t_n)PT_m(H)|\chi\rangle $" src="form_29.png"/></p>
+<p> where <img class="formulaInl" alt="$ |\chi_{\rm L}(n) \rangle = U(t_n)P|\chi\rangle $" src="form_19.png"/> and <img class="formulaInl" alt="$ |\chi_{\rm R}(m,n) \rangle = U(t_n)PT_m(H)|\chi\rangle $" src="form_20.png"/></p>
 <p>Finally, the time evolution is computed in terms of the expansion moments as: </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ S(t_n)= \sum_{m}\mu_{m,n} T_m(\varepsilon_{\rm F} \]" src="form_31.png"/>
+<img class="formulaDsp" alt="\[ S(t_n)= \sum_{m}\mu_{m,n} T_m(\varepsilon_{\rm F}) \]" src="form_21.png"/>
 </p>
 <p>[1]: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.206601">https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.206601</a> </p>
 </div></div><!-- contents -->
